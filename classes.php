@@ -1,30 +1,24 @@
 <?php
 
 class Person {
-    // Properties
     public $name;
     public $age;
+    public $gender;
 
-    // Set name method
-    public function setName($newName) {
-        $this->name = $newName;
+    public function setName($name) {
+        $this->name = $name;
     }
 
-    // Set Age method
-    public function setAge($newAge) {
-        $this->age = $newAge;
+    public function setAge($age) {
+        $this->age = $age;
     }
 
-    // Get name method
+    public function setGender($gender) {
+        $this->gender = $gender;
+    }
+
     public function getName() {
-        echo $this->name;
-    }
-
-    // Get age method
-    public function getAge() {
-        echo $this->age;
+        $this->name;
     }
 
 }
-
-// 

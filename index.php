@@ -1,13 +1,18 @@
 <?php
 
-require_once 'classes.php';
+require 'classes.php';
+require 'inheritance.php';
+require 'method_overriding.php';
 
 $miso = new Person();
 $miso->setName('Misokalya Kimiti');
 $miso->setAge('30');
+$miso->setGender('Male');
 
-echo $miso->getName();
+echo 'Name: ' . '<b>' . $miso->name . '</b>';
 echo '<br>';
-echo $miso->getAge();
+echo 'Age: ' . '<b>' . $miso->age . '</b>';
+echo '<br>';
+echo 'Gender: ' . '<b>' . $miso->gender . '</b>';
 
 ?>
