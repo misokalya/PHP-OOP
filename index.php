@@ -3,6 +3,7 @@
 require 'classes.php';
 require 'inheritance.php';
 require 'method_overriding.php';
+require 'rectangle.php';
 
 $miso = new Person();
 $miso->setName('Misokalya Kimiti');
